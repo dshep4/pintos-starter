@@ -65,14 +65,21 @@ environment.
 @node Source Tree Overview
 @subsection Source Tree Overview
 
-Now you can extract the source for Pintos into a directory named
+Now you can make a working copy the source for Pintos into a directory named
 @file{pintos/src}, by executing
+@example
+git clone @value{localpintosgit}
+@end example
+
+Alternatively, you can extract a ``tarball'' of Pintos by executing
 @example
 zcat @value{localpintostarpath} | tar x
 @end example
-Alternatively, fetch
+
+Or, from a remote location, fetch and extract
+@example
 @uref{@value{localpintoshttppath}}
-and extract it in a similar way.
+@end example
 
 Let's take a look at what's inside.  Here's the directory structure
 that you should see in @file{pintos/src}:
@@ -297,6 +304,7 @@ each of which comprises 50% of your grade.
 @menu
 * Testing::                     
 * Design::                      
+* Project Submission::
 @end menu
 
 @node Testing
@@ -365,6 +373,15 @@ is better to spend one or two hours writing a good design document than
 it is to spend that time getting the last 5% of the points for tests and
 then trying to rush through writing the design document in the last 15
 minutes.
+
+@node Project Submission
+@subsection Project Submission
+
+In order to properly test and grade your project work, we need a complete
+clean copy of your code and your design document. Please create and name
+the files properly.
+
+@localsubmission{}
 
 @menu
 * Design Document::             
