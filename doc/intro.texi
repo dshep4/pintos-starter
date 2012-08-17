@@ -374,15 +374,6 @@ it is to spend that time getting the last 5% of the points for tests and
 then trying to rush through writing the design document in the last 15
 minutes.
 
-@node Project Submission
-@subsection Project Submission
-
-In order to properly test and grade your project work, we need a complete
-clean copy of your code and your design document. Please create and name
-the files properly.
-
-@localsubmission{}
-
 @menu
 * Design Document::             
 * Source Code::                 
@@ -495,6 +486,15 @@ will be penalized.
 In the end, remember your audience.  Code is written primarily to be
 read by humans.  It has to be acceptable to the compiler too, but the
 compiler doesn't care about how it looks or how well it is written.
+
+@node Project Submission
+@subsection Project Submission
+
+In order to properly test and grade your project work, we need a complete
+clean copy of your code and your design document. Please create and name
+the files properly.
+
+@localsubmission{}
 
 @node Legal and Ethical Issues
 @section Legal and Ethical Issues
