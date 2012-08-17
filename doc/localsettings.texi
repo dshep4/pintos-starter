@@ -81,16 +81,16 @@ sections completed. It should be named exactly @file{project0.txt},
 where ``0'' is replaced with the project number (1, 2, 3, or 4).
 
 @enumerate
-@item @code{make clean} in your @file{pintos/src} directory.
+@item @code{make clean} in your @file{pintos/src} directory. Do not submit any compiled, object, or binary files.
 @item @code{tar czvf project0.tar.gz *} in your @file{pintos/src} directory.
-Substitute the project number for 0, e.g. 1, 2, 3, or 4.
+(substitute the project number for 0)
 @item @code{submit} your project with
 @itemize @minus
-@item Course: cos450
-@item Assignment: project0
-Again, substitute the project number for 0, e.g. 1, 2, 3, or 4.
-@item Files: project0.tar.gz project0.txt
-Only submit the tar.gz archive and your design document.
+@item Course: @code{cos450}
+@item Assignment: @code{project0}
+(substitute the project number for 0)
+@item Files: @code{project0.tar.gz project0.txt}
+(only submit the tar.gz archive and your design document)
 @end itemize
 @end enumerate
 
