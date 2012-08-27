@@ -81,20 +81,17 @@ sections completed. It should be named exactly @file{project0.txt},
 where ``0'' is replaced with the project number (1, 2, 3, or 4).
 
 @enumerate
-@item @code{make clean} in your @file{pintos/src} directory. Do not submit any c
-ompiled, object, or binary files.
+@item @code{make clean} in your @file{pintos/src} directory.
 @item @code{tar czvf project0.tar.gz *} in your @file{pintos/src} directory.
-(substitute the project number for 0)
-@item Login to @uref{http://www.courses.maine.edu, Blackboard} and navigat
-e to @code{COS 450/550: Operating Systems (Fall 2012)}, then to @code{Projects}.
-@item Select the appropriate project's title to open it.
-@item Use the @code{Submission} text box if you have information that is not in 
-the design document and want to convey about your assignment.
-@item Under @code{2. Assignment Materials}, @code{Attach File}, use the @code{Br
-owse My Computer} to locate your @code{.tar.gz} file.
-@item Click on @code{Submit}
-@item You will be prompted to review your submission. Choose @code{OK} if everyt
-hing is in order and @code{Start New Submission} if not (and start over).
+Substitute the project number for 0, e.g. 1, 2, 3, or 4.
+@item @code{submit} your project with
+@itemize @minus
+@item Course: cos450
+@item Assignment: project0
+Again, substitute the project number for 0, e.g. 1, 2, 3, or 4.
+@item Files: project0.tar.gz project0.txt
+Only submit the tar.gz archive and your design document.
+@end itemize
 @end enumerate
 
 Following these instructions ensures that we can use scripts to
