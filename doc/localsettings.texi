@@ -73,25 +73,16 @@ level described there.
 
 @macro localsubmission{}
 The source code archive should be a @code{tar.gz} file. It should be
-named exactly @file{project0.tar.gz} where ``0'' is replaced with the
-project number (1, 2, 3, or 4).
+named exactly @file{project.tar.gz}.
 
 The design document should be a copy of the correct template with all
-sections completed. It should be named exactly @file{project0.txt},
-where ``0'' is replaced with the project number (1, 2, 3, or 4).
+sections completed. It should be named exactly @file{DESIGNDOC} and located
+in the proper directory as specified in the assignment instructions.
 
 @enumerate
 @item @code{make clean} in your @file{pintos/src} directory.
-@item @code{tar czvf project0.tar.gz *} in your @file{pintos/src} directory.
-Substitute the project number for 0, e.g. 1, 2, 3, or 4.
-@item @code{submit} your project with
-@itemize @minus
-@item Course: cos450
-@item Assignment: project0
-Again, substitute the project number for 0, e.g. 1, 2, 3, or 4.
-@item Files: project0.tar.gz project0.txt
-Only submit the tar.gz archive and your design document.
-@end itemize
+@item @code{tar czvf project.tar.gz *} in your @file{pintos/src} directory.
+@item Login to @uref{http://www.courses.maine.edu, Blackboard} and submit your @code{tar.gz} to the appropriate project assignment.
 @end enumerate
 
 Following these instructions ensures that we can use scripts to
