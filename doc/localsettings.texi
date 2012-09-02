@@ -3,7 +3,7 @@
 @set coursenumber COS 450
 @set localpintostarpath /usr/class/cos450/pintos/pintos.tar.gz
 @set localpintoshttppath http://@/people.usm.maine.edu/@/houser/@/cos450/@/pintos.@/tar.gz
-@set localpintosbindir /usr/class/cos450/pintos/bin
+@set localpintosbindir /usr/class/cos450/bin
 @set localpintosgit ssh://linux.cs.usm.maine.edu/usr/class/cos450/pintos.git
 
 @set recommendgit
