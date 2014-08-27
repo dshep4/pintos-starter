@@ -14,7 +14,7 @@ a dedicated PC for use with Pintos.  Therefore, we will run Pintos projects
 in a system simulator, that is, a program that simulates an 80@var{x}86
 CPU and its peripheral devices accurately enough that unmodified operating
 systems and software can run under it.  In class we will use the
-@uref{http://bochs.sourceforge.net, , Bochs} and 
+@uref{http://bochs.sourceforge.net, , Bochs} and
 @uref{http://fabrice.bellard.free.fr/qemu/, ,
 QEMU} simulators.  Pintos has also been tested with
 @uref{http://www.vmware.com/, , VMware Player}.
@@ -32,18 +32,18 @@ should read the entire chapter before you start work on any of the
 projects.
 
 @menu
-* Getting Started::             
-* Grading::                     
-* Legal and Ethical Issues::    
-* Acknowledgements::            
-* Trivia::                      
+* Getting Started::
+* Grading::
+* Legal and Ethical Issues::
+* Acknowledgements::
+* Trivia::
 @end menu
 
 @node Getting Started
 @section Getting Started
 
 To get started, you'll have to log into a machine that Pintos can be
-built on.  
+built on.
 @localmachines{}
 We will test your code on these machines, and the instructions given
 here assume this environment.  We cannot provide support for installing
@@ -52,33 +52,37 @@ for doing so nonetheless (@pxref{Installing Pintos}).
 
 Once you've logged into one of these machines, either locally or
 remotely, start out by adding our binaries directory to your @env{PATH}
-environment.  
+environment.
 @localpathsetup{}
 
 @menu
-* Source Tree Overview::        
-* Building Pintos::             
-* Running Pintos::              
-* Debugging versus Testing::    
+* Source Tree Overview::
+* Building Pintos::
+* Running Pintos::
+* Debugging versus Testing::
 @end menu
 
 @node Source Tree Overview
 @subsection Source Tree Overview
 
-Now you can make a working copy the source for Pintos into a directory named
-@file{pintos/src}, by executing
+Now you can make a working copy of the source for Pintos into a directory named
+@file{pintos/src}. Change to the directory you want to create your top-level @file{pintos} directory in and execute
 @example
 git clone @value{localpintosgit}
 @end example
 
-Alternatively, you can extract a ``tarball'' of Pintos by executing
-@example
-zcat @value{localpintostarpath} | tar x
-@end example
+You will be prompted to enter you USM CS Lab username and password. More on how
+to avoid having to do this every time will come later. For now, just enter them
+as you would logging into a USM CS Lab workstation.
 
-Or, from a remote location, fetch and extract
+You should get some checkout details from git similar to the following
 @example
-@uref{@value{localpintoshttppath}}
+remote: Counting objects: 9465, done.
+remote: Compressing objects: 100% (2748/2748), done.
+remote: Total 9465 (delta 6463), reused 9407 (delta 6431)
+Receiving objects: 100% (9465/9465), 16.61 MiB | 9.20 MiB/s, done.
+Resolving deltas: 100% (6463/6463), done.
+Checking connectivity... done.
 @end example
 
 Let's take a look at what's inside.  Here's the directory structure
@@ -302,8 +306,8 @@ We will grade your assignments based on test results and design quality,
 each of which comprises 50% of your grade.
 
 @menu
-* Testing::                     
-* Design::                      
+* Testing::
+* Design::
 * Project Submission::
 @end menu
 
@@ -365,7 +369,7 @@ ask us about it.
 
 We will judge your design based on the design document and the source
 code that you submit.  We will read your entire design document and much
-of your source code.  
+of your source code.
 
 Don't forget that design quality, including the design document, is 50%
 of your project grade.  It
@@ -375,8 +379,8 @@ then trying to rush through writing the design document in the last 15
 minutes.
 
 @menu
-* Design Document::             
-* Source Code::                 
+* Design Document::
+* Source Code::
 @end menu
 
 @node Design Document
@@ -384,7 +388,7 @@ minutes.
 
 We provide a design document template for each project.  For each
 significant part of a project, the template asks questions in four
-areas: 
+areas:
 
 @table @strong
 @item Data Structures

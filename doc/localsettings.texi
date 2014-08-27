@@ -4,7 +4,7 @@
 @set localpintostarpath /usr/class/cos450/pintos/pintos.tar.gz
 @set localpintoshttppath http://@/people.usm.maine.edu/@/houser/@/cos450/@/pintos.@/tar.gz
 @set localpintosbindir /usr/class/cos450/bin
-@set localpintosgit ssh://linux.cs.usm.maine.edu/usr/class/cos450/pintos.git
+@set localpintosgit https://cicada.cs.usm.maine.edu/stash/scm/cos450/pintos.git
 
 @set recommendgit
 @clear recommendcvs
