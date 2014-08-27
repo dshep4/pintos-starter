@@ -14,19 +14,18 @@
 @macro localmachines{}
 The COS 450 ``officially supported'' Pintos development machines are the Linux
 machines in the Scince Building managed by the CS Department, as described on
-the @uref{http://usm.maine.edu/cos/unix-lab-guide, ,
-CS department webpage}.
+the @uref{http://usm.maine.edu/cos/unix-lab-guide, , CS department webpage}.
 @end macro
 
 @macro localpathsetup{}
-Under @command{bash}, USM's login shell, you can do so
+Under @command{bash}, the USM CS Lab's login shell, you can do so
 with this command:
 @example
 export PATH=@value{localpintosbindir}:$PATH
 @end example
 @noindent
-It is a good idea to add this line to the @file{.basshrc} file
-in your home directory.  Otherwise, you'll have to type it every time
+It is a good idea to add this line to the @file{~/.bashrc} or @file{~/.profile} file
+in your home directory. Otherwise, you'll have to type it every time
 you log in.
 @end macro
 
@@ -51,7 +50,7 @@ by Stephen Houser @email{houser@@usm.maine.edu}.
 
 @macro localcvspolicy{}
 Instead, we recommend integrating your team's changes early and often,
-using a source code control system such as GIT (@pxref{GIT}).
+using a ths source code control GIT (@pxref{GIT}).
 This is less likely to produce surprises, because everyone can see
 everyone else's code as it is written, instead of just when it is
 finished.  These systems also make it possible to review changes and,

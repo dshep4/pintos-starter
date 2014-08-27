@@ -19,7 +19,7 @@ systems and software can run under it.  In class we will use the
 QEMU} simulators.  Pintos has also been tested with
 @uref{http://www.vmware.com/, , VMware Player}.
 
-These projects are hard.  @value{coursenumber} has a reputation of taking a lot of
+These projects are hard. @value{coursenumber} has a reputation of taking a lot of
 time, and deservedly so.  We will do what we can to reduce the workload, such
 as providing a lot of support material, but there is plenty of
 hard work that needs to be done.  We welcome your
@@ -65,8 +65,47 @@ environment.
 @node Source Tree Overview
 @subsection Source Tree Overview
 
-Now you can make a working copy of the source for Pintos into a directory named
-@file{pintos/src}. Change to the directory you want to create your top-level @file{pintos} directory in and execute
+There's a few steps to getting the source code and setting up Git to track your
+changes. Once set up, you will be able to easily track your changes and save your
+work. We are using @uref{http:/cicada.cs.usm.maine.edu, Atlassian Stash} hosted
+on the USM CS Servers
+@example
+@uref{http:/cicada.cs.usm.maine.edu, http://cicada.cs.usm.maine.edu/stash}
+@end example
+
+Go ahead and surf there and log in to Stash with your USM CS Lab credentials. After
+you log in, you should be presented with a list of projects. If not, go ahead and
+click on the @file{Projects} link in the page header. From there, click on the
+@file{COS 450 - Operating Systems} project. 
+Therein you will see the repositories within the project/course. Choose the
+@file{Pintos} project and you will be looking at the Pintos source code! You can look around here, but make sure you are looking at the  top-level
+of the @file{cos450} branch before proceeding to the next step.
+
+The next step is to fork and check out a version of Pintos that you will 
+work within. With Stash and Git this is very easy. Go ahead and
+click on the @file{Fork} button on the right of the page just below the header. For the
+moment you can fork into you own personal project, with your name as the 
+project. This should be the default for the project field. Choose a repository 
+name that you like, perhaps Pintos for convienience. Leave @file{Enable fork syncing}
+enabled, this will allow changes in the upstream Pintos project to be
+pushed into your fork. Click on @file{Fork repository} when you're ready. This might
+generate a "500" error, no worries, click on the avatar in the upper right corner
+and select @file{View profile} from the menu that appears. You should see
+your profile and your new Pintos repository.
+
+Click into your new Pintos repository and you should see a source tree similar
+to the one you were looking at earlier. You are now ready to clone the source
+code to your local machine and begin compiling. Click on the @file{Clone} button
+at the top right of the page and copy the @file{HTTP} link. You will use this
+in the next step at the command line.
+
+With the Stash URL in hand you can check out a working copy of the source for 
+Pintos into a directory named @file{pintos/src}. Change to the directory 
+you want to create your top-level @file{pintos} directory in and execute 
+the following. Substituting the Stash URL you just copied for 
+@file{@value{localpintosgit}} or you will get the class codebase rather 
+than the fork you created for yourself.
+
 @example
 git clone @value{localpintosgit}
 @end example
@@ -85,7 +124,7 @@ Resolving deltas: 100% (6463/6463), done.
 Checking connectivity... done.
 @end example
 
-Let's take a look at what's inside.  Here's the directory structure
+Now you can really take a look at what's inside. Here's the directory structure
 that you should see in @file{pintos/src}:
 
 @table @file
