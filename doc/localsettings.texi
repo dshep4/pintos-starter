@@ -13,7 +13,7 @@
 
 @macro localmachines{}
 The COS 450 ``officially supported'' Pintos development machines are the Linux
-machines in the Scince Building managed by the CS Department, as described on
+machines in the Science Building managed by the CS Department, as described on
 the @uref{http://usm.maine.edu/cos/unix-lab-guide, , CS department webpage}.
 @end macro
 
