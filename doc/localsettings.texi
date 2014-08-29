@@ -50,11 +50,12 @@ by Stephen Houser @email{houser@@usm.maine.edu}.
 
 @macro localcvspolicy{}
 Instead, we recommend integrating your team's changes early and often,
-using a ths source code control GIT (@pxref{GIT}).
+using a the source code control system Git (@pxref{GIT}).
 This is less likely to produce surprises, because everyone can see
 everyone else's code as it is written, instead of just when it is
-finished.  These systems also make it possible to review changes and,
-when a change introduces a bug, drop back to working versions of code.
+finished.  Source code control systems also make it possible to review 
+changes and, when a change introduces a bug, drop back to working 
+versions of code.
 @end macro
 
 @macro localcodingstandards{}
